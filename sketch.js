@@ -77,7 +77,7 @@ function draw() {
    }else if(lastFed==0){
      text("Last Fed : 12 AM",350,30);
    }
-   }else{
+   }else if{
      text("Last Feed : "+ lastFed + "AM", 350,30); 
     } 
 
