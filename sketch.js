@@ -116,15 +116,11 @@ function readStock(data){
 
 foodS = data.val();
 food.updateFoodStock(foodS);
-  
-}
-
 
 database.ref("/").update({
 food:x
-})
-
-
+})  
+}
 
  function feedDog(){
   dog.addImage(happyDog);
@@ -141,7 +137,8 @@ food:x
    database.ref("/").update({
      Food:foodS
    }) 
-
+  }
+    
   function update(state){
    database.ref('/').update({
     gameState:state
