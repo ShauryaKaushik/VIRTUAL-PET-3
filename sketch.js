@@ -8,7 +8,7 @@ var food;
 var feedDog,addFood;
 var fedTime,lastFed;
 var foodObj;
-var changegameState;
+var change gameState;
 var readState;
 var bedroomImg,gardenImg,washroomImg;
 var bedroom,garden,washroom;
@@ -76,7 +76,7 @@ function draw() {
     text("Last Fed : "+ lastFed%12 + "PM", 350 , 30); 
    }else if(lastFed==0){
      text("Last Fed : 12 AM",350,30);
-   }else (){
+   }else {
      text("Last Feed : "+ lastFed + "AM", 350,30); 
     } 
 
