@@ -6,6 +6,7 @@ var database;
 var foodStock;
 var foodS;
 var food;
+var milkImg;
 var feedDog,addFood;
 var fedTime,lastFed;
 var foodObj;
@@ -23,7 +24,6 @@ sadDog = loadImage("pet images/Dog.png");
 bedroomImg = loadImage("pet images/Bed Room.png");
 gardenImg = loadImage("pet images/Garden.png");
 washroomImg = loadImage("pet images/Wash Room.png");
-
 
 }
 
@@ -118,10 +118,7 @@ function readStock(data){
 
 foodS = data.val();
 food.updateFoodStock(foodS);
-
-database.ref("/").update({
-Food:x
-})  
+  
 }
 
  function feedDog(){
