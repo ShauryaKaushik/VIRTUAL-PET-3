@@ -20,7 +20,7 @@ happyDog = loadImage("dogImg1.png");
 
 bedroomImg = loadImage("pet images/ Bed Room.png");
 gardenImg = loadImage("pet images/Garden.png");
-washroomImg = loadImage("virtual images/Wash Room.png");
+washroomImg = loadImage("pet images/Wash Room.png");
 
 
 }
