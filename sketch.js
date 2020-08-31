@@ -8,7 +8,7 @@ var food;
 var feedDog,addFood;
 var fedTime,lastFed;
 var foodObj;
-var change gameState;
+var changegameState;
 var readState;
 var bedroomImg,gardenImg,washroomImg;
 var bedroom,garden,washroom;
