@@ -85,16 +85,16 @@ function draw() {
   currentTime = hour();
   if(currentTime==(lastFed+1)){
     update("Playing");
-    foodObj.garden(); 
+    food.garden(); 
   }else if(currentTime==(lastFed+2)){
      update("Sleeping");     
-     foodObj.bedroom();
+     food.bedroom();
   }else if(currentTime==(lastFed+3)&& currentTime<=(lastFed+4)){
     update("Bathing");
-    foodObj.washroom();
+    food.washroom();
   }else{
     update("Hungry");
-    foodObj.display();
+    food.display();
   }
 
   if(gameState!="Hungry"){
@@ -118,7 +118,7 @@ foodS = data.val();
 food.updateFoodStock(foodS);
 
 database.ref("/").update({
-food:x
+Food:x
 })  
 }
 
