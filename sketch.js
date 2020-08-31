@@ -1,6 +1,7 @@
 var dog;
 var dogImage;
 var happyDog;
+var sadDog;
 var database;
 var foodStock;
 var foodS;
@@ -17,6 +18,7 @@ function preload()
 {
 dogImage = loadImage("dogImg.png");
 happyDog = loadImage("dogImg1.png");
+sadDog = loadImage("pet images/Dog.png");  
 
 bedroomImg = loadImage("pet images/Bed Room.png");
 gardenImg = loadImage("pet images/Garden.png");
@@ -104,7 +106,7 @@ function draw() {
   }else{
     feed.show();
     addFood.show();
-    dog.addImage("pet images/Dog.png");
+    dog.addImage("sadDog");
   }
 
 
