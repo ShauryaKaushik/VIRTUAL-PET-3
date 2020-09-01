@@ -75,11 +75,11 @@ function draw() {
   fill(255,255,254);
   textSize(15);
   if(lastFed>=12){
-    text("Last Fed : "+ lastFed%12 + "PM", 350 , 30); 
+    text("Last Fed : "+ lastFed%12 + "PM", 250 , 30); 
    }else if(lastFed==0){
-     text("Last Fed : 12 AM",350,30);
+     text("Last Fed : 12 AM",250,30);
    }else {
-     text("Last Feed : "+ lastFed + "AM", 350,30); 
+     text("Last Feed : "+ lastFed + "AM", 250,30); 
     } 
 
   food.display();
